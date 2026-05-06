@@ -11,7 +11,7 @@ def print_section(title: str) -> None:
 
 
 def generate_data() -> tuple[torch.Tensor, torch.Tensor]:
-    # 固定随机种子，这样你每次运行时生成的数据都一样
+    # 固定随机种子，这样你每次运行时生成的数据都一样generate_data
     torch.manual_seed(42)
 
     # 生成 100 个 x 值，范围从 -5 到 5
